@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>KislapAI</title>
-    <link rel="stylesheet" href="../frontend/styles/login.css" type="text/css">
-    <link rel="stylesheet" href="../frontend/styles/style.css" type="text/css">
+    <link rel="stylesheet" href="../../../frontend/styles/signup.css" type="text/css">
+    <link rel="stylesheet" href="../../../frontend/styles/style.css" type="text/css">
 </head>
 
 <body>
+
     <!-- Navbar header -->
     <header class="header">
         <a href="../../main pages/index.html"><img src="../../imgs/Logo.png" class="logo" alt="DaguPin Logo"></a>
@@ -37,16 +38,20 @@
                         d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 7.5v11.25m-18 0A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75m-18 0v-7.5A2.25 2.25 0 0 1 5.25 9h13.5A2.25 2.25 0 0 1 21 11.25v7.5m-9-6h.008v.008H12v-.008ZM12 15h.008v.008H12V15Zm0 2.25h.008v.008H12v-.008ZM9.75 15h.008v.008H9.75V15Zm0 2.25h.008v.008H9.75v-.008ZM7.5 15h.008v.008H7.5V15Zm0 2.25h.008v.008H7.5v-.008Zm6.75-4.5h.008v.008h-.008v-.008Zm0 2.25h.008v.008h-.008V15Zm0 2.25h.008v.008h-.008v-.008Zm2.25-4.5h.008v.008H16.5v-.008Zm0 2.25h.008v.008H16.5V15Z" />
                 </svg>
             </a>
+            </div>
         </nav>
     </header>
 
     <div class="form">
         <form action="/users/register" method="POST">
-            <input type="text" name="fullName" required placeholder="Enter your Full Name: (Lastname, Firstname M.)">
-            <input type="email" name="email" required placeholder="Enter your Email: (example@example.com)">
-            <input type="password" name="password" required placeholder="Enter your Password: ">
-            <button type="submit">Login</button>
+            <input type="text" name="fullName" required placeholder="Enter your full name: (Lastname, Firstname C.)">
+            <input type="email" name="email" required placeholder="Enter your email: (example@example.com)">
+            <input type="tel" name="phoneNumber" required placeholder="Enter your number: (ex. 09XXXXXXXXX)">
+            <input type="text" name="address" required placeholder="Enter your address: ">
+            <input type="password" name="password" required placeholder="Create password: ">
+            <button type="submit">Sign Up</button>
         </form>
     </div>
 </body>
+
 </html>

@@ -7,11 +7,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Column;
 
 import jakarta.validation.constraints.Size;
-import jakarta.validation.constraints.NotNull;
-import jakarta.validation.constraints.Email;
 
 import java.time.LocalDateTime;
-
 
 @Entity
 @Table(name = "users")
@@ -66,5 +63,4 @@ public class User {
     public void setProfilePhotoUrl(String profilePhotoUrl) { this.profilePhotoUrl = profilePhotoUrl; }
     public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
     public void setStatus(String status) { this.status = status; }
-
 }

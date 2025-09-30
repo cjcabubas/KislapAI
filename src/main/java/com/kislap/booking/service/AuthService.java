@@ -12,8 +12,7 @@ public class AuthService {
     private UserRepository userRepository;
 
     public void register(User user) {
+        userRepository.save(user);
     }
-
-
 
 }

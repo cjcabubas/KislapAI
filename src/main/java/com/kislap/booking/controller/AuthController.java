@@ -14,8 +14,8 @@ public class AuthController {
 
     public User login(@RequestParam String email,
                       @RequestParam String password) {
-
-        User user = new User();
-        return user;
+        
     }
+
+
 }
